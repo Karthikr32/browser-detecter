@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Browser Detector</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+  <div class="container"> 
+    <h1>Browser Detector</h1>
+
+    <div id="browser-info">
+      <p><strong>Browser Name:</strong> <span id="browser-name">Loading...</span></p>
+      <p><strong>Browser Version:</strong> <span id="browser-version">Loading...</span></p>
+      <p><strong>Window Width:</strong> <span id="window-width">0</span>px</p>
+      <p><strong>Window Height:</strong> <span id="window-height">0</span>px</p>
+      <p><strong>Window X Position:</strong> <span id="window-x">0</span>px</p>
+      <p><strong>Window Y Position:</strong> <span id="window-y">0</span>px</p>
+    </div>
+
+    <div id="geolocation">
+      <p><strong>Latitude:</strong> <span id="latitude">Loading...</span></p>
+      <p><strong>Longitude:</strong> <span id="longitude">Loading...</span></p>
+    </div>
+
+    <div id="local-storage">
+      <label for="local-storage-input">Save to Local Storage:</label>
+      <input type="text" id="local-storage-input" placeholder="Enter text">
+      <button id="save-btn">Save</button>
+      <button id="retrieve-btn">Retrieve</button>
+      <p>Save Data: <span id="save-data">None</span></p>
+    </div>
+
+    <div id="action">
+      <button id="write-btn">Write Something...</button>
+      <button id="alert-btn">Show Alert</button>
+      <button id="confirm-btn">Show Confirm</button>
+    </div>
+
+  </div>
+
+  <script src="./index.js"></script>
+  
+ 
+
+ 
+</body>
+</html>
